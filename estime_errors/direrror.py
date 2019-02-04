@@ -1,9 +1,9 @@
 import sys
-from PyQt5 import QtWidgets
-from direrrorGUI import Ui_MainWindow
 import re
 import numpy as np
+from PyQt5 import QtWidgets
 
+from .direrrorGUI import Ui_MainWindow
 
 
 def est_dir_err(input_values, input_app_error, input_measure_error):

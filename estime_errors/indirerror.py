@@ -1,12 +1,13 @@
 import sys
-from PyQt5 import QtWidgets
-from indirerrorGUI import Ui_MainWindow
 import re
 import numpy as np
 import sympy as sy
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
-from direrror import DirErrorGUI
+from PyQt5 import QtWidgets
+
+from .direrror import DirErrorGUI
+from .indirerrorGUI import Ui_MainWindow
 
 
 def est_indir_err(inp_func, inp_vals, inp_errors):

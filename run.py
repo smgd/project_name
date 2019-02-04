@@ -1,6 +1,7 @@
-from indirerror import IndirErrorGUI
 import sys
 from PyQt5 import QtWidgets
+
+from estime_errors.indirerror import IndirErrorGUI
 
 
 def err_main_exec():
